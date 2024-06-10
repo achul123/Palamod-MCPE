@@ -4,41 +4,40 @@
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
-
-      "paladium_block": {
+    "paladium_block": {
       "textures": "textures/blocks/paladium_block"
-     },
-     "amethyst_block": {
+    },
+    "amethyst_block": {
       "textures": "textures/blocks/amethyst_block"
-      },
-     "titane_block": {
+    },
+    "titane_block": {
       "textures": "textures/blocks/titane_block"
-      },
-     "amethyst_ore": {
+    },
+    "amethyst_ore": {
       "textures": "textures/blocks/amethyst_ore"
-      },
-     "titane_ore": {
+    },
+    "titane_ore": {
       "textures": "textures/blocks/titane_ore"
-      },
-     "paladium_ore": {
+    },
+    "paladium_ore": {
       "textures": "textures/blocks/paladium_ore"
-      },
-     "paladium_machine": {
+    },
+    "paladium_machine": {
       "textures": "textures/blocks/paladium_machine"
-      },
-     "green_paladium_ore": {
+    },
+    "green_paladium_ore": {
       "textures": "textures/blocks/green_paladium_ore"
-      },
-     "green_paladium_block": {
+    },
+    "green_paladium_block": {
       "textures": "textures/blocks/green_paladium_block"
-      },
-     "findium_ore": {
+    },
+    "findium_ore": {
       "textures": "textures/blocks/findium_ore"
-      },
-     "orange_crop": {
+    },
+    "orange_crop": {
       "textures": "textures/blocks/orange_crop"
-      },
-     "findium_block": {
+    },
+    "findium_block": {
       "textures": "textures/blocks/findium_block"
     }
   }

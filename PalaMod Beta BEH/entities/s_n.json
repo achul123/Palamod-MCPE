@@ -364,9 +364,7 @@
                "use_item":true
             }
          ],
-         "minecraft:physics":{
-
-         }
+         "minecraft:physics":{}
       },
       "events":{
          "minecraft:entity_spawned":{

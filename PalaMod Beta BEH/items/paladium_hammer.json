@@ -5,7 +5,7 @@
       "identifier": "palamod:paladium_hammer"
     },
     "components": {
-      "minecraft:stacked_by_data": true,
+      "minecraft:stacked_by_data": false,
       "minecraft:foil": false,
       "minecraft:hand_equipped": true
 	 }
