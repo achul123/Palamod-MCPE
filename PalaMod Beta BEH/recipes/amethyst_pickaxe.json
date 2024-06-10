@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:amethyst_pickaxe"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      " | ",
+      " | "
+    ],
+    "key": {
+      "#": {
+        "item": "palamod:amethyst_ingot"
+      },
+      "|": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "palamod:amethyst_pickaxe",
+        "data": 0
+    }
+  }
+}

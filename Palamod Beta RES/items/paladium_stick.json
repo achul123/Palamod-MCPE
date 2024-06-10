@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:paladium_stick",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "paladium_stick",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

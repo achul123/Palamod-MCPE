@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:endium_ingot"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "palamod:endium_nugget"
+      },
+      "#": {
+        "item": "minecraft:bedrock"
+      }
+    },
+    "result": {
+      "item": "palamod:endium_ingot"
+    }
+  }
+}

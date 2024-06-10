@@ -1,0 +1,38 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.vex.attack.rotations.v1.0": {
+      "loop": true,
+      "bones": {
+        "body": { "rotation": [ 0.0, "variable.attackBodyRotY - this", 0.0 ] },
+        "rightArm": {
+          "rotation": [
+            "Math.sin(1.0 - Math.pow(1.0 - variable.attack_time, 3.0) * 180.0) * (variable.is_brandishing_spear ? -1.0 : 1.0 )",
+            "(variable.is_brandishing_spear ? 0.0 : variable.attackBodyRotY * 2.0) + variable.attackBodyRotY",
+            0.0
+          ]
+        },
+        "leftArm": {
+          "rotation": [ "variable.attackBodyRotY", "variable.attackBodyRotY", 0.0 ]
+        }
+      }
+    },
+
+    "animation.vex.move": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "rightarm": { "rotation": [ "query.is_charging ? (216.0 - this) : 0.0", 0.0, 0.0 ] },
+        "leftwing": {
+          "rotation": [ "27.0 - this", "-(27.0 + Math.cos(query.life_time * 916.8) * 9.0) - this", "-27.0 - this" ],
+          "position": [ 0.0, "-1.0 - this", "2.0 - this" ]
+        },
+        "rightwing": {
+          "rotation": [ "27.0 - this", "27.0 + Math.cos(query.life_time * 916.8) * 9.0 - this", "27.0 - this" ],
+          "position": [ 0.0, "-1.0 - this", "2.0 - this" ]
+        },
+        "leg0": { "rotation": [ "variable.tcos0 * 1.4 + 36.0", 0.0, 0.0 ] }
+      }
+    }
+  }
+}

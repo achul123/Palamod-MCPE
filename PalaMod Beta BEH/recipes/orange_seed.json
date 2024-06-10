@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:orange_seed"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:wheat_seeds"
+      },
+      "#": {
+        "item": "minecraft:bedrock"
+      }
+    },
+    "result": {
+      "item": "palamod:orange_seed"
+    }
+  }
+}

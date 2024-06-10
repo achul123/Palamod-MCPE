@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:speed_orb"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " X ",
+      "X#X",
+      " X "
+    ],
+    "key": {
+      "X": {
+        "item": "palamod:paladium"
+      },
+      "#": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "palamod:speed_orb"
+    }
+  }
+}

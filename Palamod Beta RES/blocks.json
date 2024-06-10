@@ -1,0 +1,52 @@
+{
+  "format_version": [  1, 1, 0 ],
+    "palamod:paladium_ore": {
+    "textures": "paladium_ore",
+    "sound": "stone"
+    },
+    "palamod:titane_ore": {
+    "textures": "titane_ore",
+    "sound": "stone"
+    },
+    "palamod:amethyst_ore": {
+    "textures": "amethyst_ore",
+    "sound": "stone"
+    },
+    "palamod:paladium_block": {
+    "textures": "paladium_block",
+    "sound": "stone"
+    },
+    "palamod:titane_block": {
+    "textures": "titane_block",
+    "sound": "stone"
+    },
+    "palamod:amethyst_block": {
+    "textures": "amethyst_block",
+    "sound": "stone"
+    },
+    "palamod:paladium_machine": {
+    "textures": "paladium_machine",
+    "sound": "stone"
+    },
+    "palamod:paladium_green_block": {
+    "textures": "green_paladium_block",
+    "sound": "stone"
+    },
+    "palamod:paladium_green_ore": {
+    "textures": "green_paladium_ore",
+    "sound": "stone"
+    },
+    "palamod:findium_block": {
+    "textures": "findium_block",
+    "sound": "stone"
+    },
+    "palamod:orange_crop": {
+    "blockshape": "deadbush",
+    "textures": "orange_crop",
+    "sound": "stone"
+    },
+    "palamod:findium_ore": {
+    "textures": "findium_ore",
+    "sound": "stone"
+  }
+}

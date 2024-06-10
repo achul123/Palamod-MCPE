@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:jump_orb",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "jump_orb",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

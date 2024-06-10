@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:endium_pickaxe",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "endium_pickaxe",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

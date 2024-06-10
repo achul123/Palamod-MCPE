@@ -1,0 +1,31 @@
+{
+   "format_version":"1.8.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"slope:flipped_south",
+         "materials":{
+            "default":"shulker"
+         },
+         "textures":{
+            "oak":"textures/slope/a",
+            "oak_dark":"textures/slope/b",
+            "birch":"textures/slope/c",
+            "acacia":"textures/slope/d",
+            "jungle":"textures/slope/e",
+            "spruce":"textures/slope/f",
+            "cobblestone":"textures/slope/g",
+            "stone_brick":"textures/slope/h"
+         },
+         "geometry":{
+            "default":"geometry.flipped_slope.south"
+         },
+         "render_controllers":[
+            "controller.render.slope"
+         ],
+         "spawn_egg":{
+            "texture":"spawn_egg",
+            "texture_index":41
+         }
+      }
+   }
+}

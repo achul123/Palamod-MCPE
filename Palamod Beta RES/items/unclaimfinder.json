@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:unclaim_finder",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "unclaim_finder",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

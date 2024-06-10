@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:money",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "money",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

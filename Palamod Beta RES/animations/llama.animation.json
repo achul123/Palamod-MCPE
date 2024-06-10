@@ -1,0 +1,79 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.llama.setup.v1.0": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [ "90 - this", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.llama.setup": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [ "-this", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.llama.baby_transform": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "scale": [ 1.3, 1.2, 1.2 ],
+          "position": [ 0.0, 2.0, 0.0 ]
+        },
+        "body": {
+          "scale": [ 1.2, 1.0, 1.0 ],
+          "position": [ 0.0, -5.5, -5.0 ]
+        },
+        "leg0": {
+          "scale": [ 0.91, 0.56, 0.91 ],
+          "position": [ 0.0, -1.0, 0.0 ]
+        },
+        "leg1": {
+          "scale": [ 0.91, 0.56, 0.91 ],
+          "position": [ 0.0, -1.0, 0.0 ]
+        },
+        "leg2": {
+          "scale": [ 0.91, 0.56, 0.91 ],
+          "position": [ 0.0, -1.0, 0.0 ]
+        },
+        "leg3": {
+          "scale": [ 0.91, 0.56, 0.91 ],
+          "position": [ 0.0, -1.0, 0.0 ]
+        }
+      }
+    },
+    "animation.llama.baby_transform.v1.0": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "scale": [ 1.43, 1.2, 1.2 ],
+          "position": [ 0.0, -4.348, 1.587 ]
+        },
+        "body": {
+          "scale": [ 0.91, 0.83, 0.9 ],
+          "position": [ 0.0, -6.0, 0.0 ]
+        },
+        "leg0": {
+          "scale": [ 0.91, 0.56, 0.91 ],
+          "position": [ 0.0, -6.36, 0.0 ]
+        },
+        "leg1": {
+          "scale": [ 0.91, 0.56, 0.91 ],
+          "position": [ 0.0, -6.36, 0.0 ]
+        },
+        "leg2": {
+          "scale": [ 0.91, 0.56, 0.91 ],
+          "position": [ 0.0, -6.36, 0.0 ]
+        },
+        "leg3": {
+          "scale": [ 0.91, 0.56, 0.91 ],
+          "position": [ 0.0, -6.36, 0.0 ]
+        }
+      }
+    }
+  }
+}

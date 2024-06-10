@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.endermite.move": {
+      "loop": true,
+      "bones": {
+        "section_0": {
+          "rotation": [ 0.0, "(Math.cos(query.life_time * 928.26) * 26.9) - this", 0.0 ],
+          "position": [ "(Math.cos(-query.life_time * 928.26) * 1.26) - this", 0.0, 0.0 ]
+        },
+        "section_1": {
+          "rotation": [ 0.0, "(Math.cos(query.life_time * 928.26) * 16) - this", 0.0 ],
+          "position": [ "(Math.sin(query.life_time * 928.26) * 0.63) - this", 0.0, 0.0 ]
+        },
+        "section_2": {
+          "rotation": [ 0.0, "(Math.cos(query.life_time * 928.26) * 9.17) - this", 0.0 ],
+          "position": [ 0.0, 0.0, 0.0 ]
+        },
+        "section_3": {
+          "position": [ "(Math.cos(query.life_time * 928.26) * 0.8) - this", 0.0, 0.0 ]
+        }
+      }
+    }
+  }
+}

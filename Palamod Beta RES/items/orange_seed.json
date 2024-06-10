@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:orange_seed",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "orange_seed",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

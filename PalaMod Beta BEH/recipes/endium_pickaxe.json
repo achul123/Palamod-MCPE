@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:endium_pickaxe"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      " | ",
+      " | "
+    ],
+    "key": {
+      "#": {
+        "item": "palamod:endium_ingot"
+      },
+      "|": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "palamod:endium_pickaxe",
+        "data": 0
+    }
+  }
+}

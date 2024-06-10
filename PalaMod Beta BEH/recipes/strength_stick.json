@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:strength_stick"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PXP",
+      "#M#"
+    ],
+    "key": {
+      "X": {
+        "item": "palamod:strength_orb"
+      },
+      "#": {
+        "item": "palamod:paladium"
+        },
+      "P": {
+        "item": "palamod:paladium_stick"
+        },
+      "M": {
+        "item": "palamod:paladium_machine"
+      }
+    },
+    "result": {
+      "item": "palamod:strength_stick",
+      "count": 64
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:paladium_machine"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "X#X",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:stone"
+      },
+      "#": {
+        "item": "palamod:compressed_paladium"
+      }
+    },
+    "result": {
+      "item": "palamod:paladium_machine",
+      "count": 4
+    }
+  }
+}

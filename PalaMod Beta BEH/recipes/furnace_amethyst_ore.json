@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "palamod:furnace_amethyst_ore"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "palamod:amethyst_ore",
+    "output": "palamod:amethyst_ingot"
+  }
+  
+}

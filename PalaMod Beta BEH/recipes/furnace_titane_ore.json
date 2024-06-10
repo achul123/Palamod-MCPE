@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "palamod:furnace_titane_ore"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "palamod:titane_ore",
+    "output": "palamod:titane_ingot"
+  }
+  
+}

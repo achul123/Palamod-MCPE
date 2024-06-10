@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "palamod:gpaladiumore",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:weight": {
+          "default": 40
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+
+        "minecraft:biome_filter": { 
+          "test": "has_biome_tag", "operator":"==", "value": "monster"
+		}
+      }
+    ]
+  }
+}

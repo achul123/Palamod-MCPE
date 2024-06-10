@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.tropicalfish.flop": {
+      "loop": true,
+      "bones": {
+        "body": { "rotation": [ 0.0, "Math.cos(variable.AnimationAmountBlend * 45.0) * 2.0", "variable.ZRot" ] },
+        "tailfin": { "rotation": [ 0.0, "Math.cos(variable.AnimationAmountBlend * 45.0) * -25.75", 0.0 ] }
+      }
+    },
+    "animation.tropicalfish.swim": {
+      "loop": true,
+      "bones": {
+        "tailfin": { "rotation": [ 0.0, "Math.cos(variable.AnimationAmountBlend * 30.0) * -25.75", 0.0 ] }
+      }
+    }
+  }
+}

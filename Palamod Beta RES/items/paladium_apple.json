@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:paladium_apple",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "paladium_apple",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

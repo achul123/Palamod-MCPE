@@ -1,0 +1,59 @@
+tile.palamod:amethyst_block.name=Bloc d'Amethyst
+tile.palamod:titane_block.name=Bloc de Titane
+tile.palamod:paladium_block.name=Bloc de Paladium
+tile.palamod:findium_block.name=Bloc de Findium
+
+item.palamod:amethyst_sword.name=Épée en Amethyst §7| §o§9+8 Attack Damage
+item.palamod:titane_sword.name=Épée en Titane §7| §o§9+9 Attack Damage
+item.palamod:paladium_sword.name=Épée en Paladium §7| §o§9+10 Attack Damage
+item.palamod:endium_sword.name=Épée en Endium §7| §o§9+10 Attack Damage
+
+item.palamod:p_sharpness1.name=Épée en Paladium §7| §o§9+11 Attack Damage - Sharpness 1
+item.palamod:p_sharpness2.name=Épée en Paladium §7| §o§9+12 Attack Damage - Sharpness 2
+item.palamod:p_sharpness3.name=Épée en Paladium §7| §o§9+13 Attack Damage - Sharpness 3
+item.palamod:p_sharpness4.name=Épée en Paladium §7| §o§9+14 Attack Damage - Sharpness 4
+item.palamod:p_sharpness5.name=Épée en Paladium §7| §o§9+15 Attack Damage - Sharpness 5
+
+item.palamod:e_sharpness1.name=Épée en Endium §7| §o§9+12 Attack Damage - Sharpness 1
+item.palamod:e_sharpness2.name=Épée en Endium §7| §o§9+13 Attack Damage - Sharpness 2
+item.palamod:e_sharpness3.name=Épée en Endium §7| §o§9+14 Attack Damage - Sharpness 3
+item.palamod:e_sharpness4.name=Épée en Endium §7| §o§9+15 Attack Damage - Sharpness 4
+item.palamod:e_sharpness5.name=Épée en Endium §7| §o§9+16 Attack Damage - Sharpness 5
+
+item.palamod:amethyst_ingot.name=Lingot d'Amethyst
+item.palamod:titane_ingot.name=Lingot de Titane
+item.palamod:paladium.name=Lingot de Paladium
+item.palamod:endium_ingot.name=Lingot d'Endium
+item.palamod:green_ingot.name=Lingot de Paladium Vert
+
+item.spawn_egg.entity.palamod:guardian.name=Guardian Golem
+
+item.palamod:paladium_pickaxe.name=Pioche en Paladium
+item.palamod:titane_pickaxe.name=Pioche en Titane
+item.palamod:amethyst_pickaxe.name=Pioche en Amethyst
+item.palamod:speed_orb.name=Orb de Vitesse
+item.palamod:heal_orb.name=Orb de Santé
+item.palamod:strength_orb.name=Orb de Puissance
+item.palamod:jump_orb.name=Orb de Saut
+item.palamod:speed_stick.name=Bâton de Vitesse
+item.palamod:heal_stick.name=Bâton de Santé
+item.palamod:strength_stick.name=Bâton de Puissance
+item.palamod:jump_stick.name=Bâton de Saut
+item.palamod:paladium_stick.name=Bâton en Paladium
+item.palamod:endium_pickaxe.name=Pioche en Endium
+item.palamod:endium_nugget.name=Pépite d'Endium
+item.palamod:findium.name=Findium
+item.palamod:money.name=Argent
+item.palamod:compressed_paladium.name=Paladium Compressé
+item.palamod:unclaim_finder.name=Unclaim Finder Vert
+item.palamod:paladium_apple.name=Pomme en Paladium
+item.palamod:orange_seed.name=Graine en Endium
+item.palamod:orange_blue.name=Orange Blue
+item.palamod:hand_glider.name=Hand Glider
+item.diamond_string.name=Ficelle en Diamand
+item.paladium_hammer.name=Hammer en Paladium
+
+tile.palamod:paladium_machine.name=Paladium Machine
+tile.palamod:paladium_ore.name=Minerais de Paladium
+tile.palamod:titane_ore.name=Minerais de Titane
+tile.palamod:amethyst_ore.name=Minerais d'Amethyst

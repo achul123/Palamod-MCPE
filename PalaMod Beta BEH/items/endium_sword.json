@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+	"description": {
+      "identifier": "palamod:endium_sword"
+    },
+    "components": {
+      "minecraft:stacked_by_data": true,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": true
+	 }
+  }
+}

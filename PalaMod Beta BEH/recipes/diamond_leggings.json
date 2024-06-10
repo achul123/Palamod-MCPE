@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:diamond_leggings"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "palamod:paladium"
+      },
+      "#": {
+        "item": "minecraft:bedrock"
+      }
+    },
+    "result": {
+      "item": "minecraft:diamond_leggings"
+    }
+  }
+}

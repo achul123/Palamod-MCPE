@@ -1,0 +1,54 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.turtle.general": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [ "-this", 0, 0 ],
+          "position": [ 0.0, "query.is_pregnant ? 1.0 : 0.0", 0.0 ]
+        },
+        "eggbelly": {
+          "position": [ 0.0, -0.08, 0.0 ],
+          "scale": "query.is_pregnant ? 1.0 : 0.0"
+        }
+      }
+    },
+    "animation.turtle.move": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "leg0": {
+          "rotation": [ "Math.clamp(Math.cos(query.anim_time * 22.92) * query.modified_move_speed * 28.65, -90.0, 90.0) - this", "-this", "-this" ]
+        },
+        "leg1": {
+          "rotation": [ "Math.clamp(Math.cos(query.anim_time * 22.92 + 180) * query.modified_move_speed * 28.65, -90.0, 90.0) - this", "-this", "-this" ]
+        },
+        "leg2": {
+          "rotation": [ "-this", "-this", "Math.clamp(Math.cos(query.anim_time * 22.92 + 180) * query.modified_move_speed * 28.65, -90.0, 90.0) - this" ]
+        },
+        "leg3": {
+          "rotation": [ "-this", "-this", "Math.clamp(Math.cos(query.anim_time * 22.92) * query.modified_move_speed * 28.65, -90.0, 90.0) - this" ]
+        }
+      }
+    },
+    "animation.turtle.ground_move": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "leg0": {
+          "rotation": [ "-this", "Math.clamp(Math.cos(query.anim_time * variable.timeMultiplier * variable.legSpeedMultiplier * 57.3 + 180) * variable.backLegMultiplier * query.modified_move_speed * 57.3, -90.0, 90.0) - this", "-this" ]
+        },
+        "leg1": {
+          "rotation": [ "-this", "Math.clamp(Math.cos(query.anim_time * variable.timeMultiplier * variable.legSpeedMultiplier * 57.3) * variable.backLegMultiplier * query.modified_move_speed * 57.3, -90.0, 90.0) - this", "-this" ]
+        },
+        "leg2": {
+          "rotation": [ "-this", "query.is_laying_egg ? Math.cos(query.life_time * 1146.0 + 180) * 90.0 : Math.clamp(Math.cos(query.anim_time * variable.timeMultiplier * variable.legSpeedMultiplier * 57.3 + 180) * variable.frontLegMultiplier * query.modified_move_speed * 57.3, -90.0, 90.0) - this", "-this" ]
+        },
+        "leg3": {
+          "rotation": [ "-this", "query.is_laying_egg ? Math.cos(query.life_time * 1146.0) * 90.0 : Math.clamp(Math.cos(query.anim_time * variable.timeMultiplier * variable.legSpeedMultiplier * 57.3) * variable.frontLegMultiplier * query.modified_move_speed * 57.3, -90.0, 90.0) - this", "-this" ]
+        }
+      }
+    }
+  }
+}

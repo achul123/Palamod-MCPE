@@ -1,0 +1,62 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.enderman.base_pose": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [ "-this", "11.0 - this", "-this" ],
+          "rotation": [ "-this", 0.0, 0.0 ]
+        },
+        "rightArm": { "position": [ "-4.0-this", 0.0, "-this" ] },
+        "leftArm": { "position": [ "4.0-this", 0.0, "-this" ] },
+        "rightLeg": { "position": [ 0.0, "-5.0 - this", 0.0 ] },
+        "leftLeg": { "position": [ 0.0, "-5.0 - this", 0.0 ] },
+        "hat": {
+          "position": [ "-this", "-this", "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "head": { "position": [ "-this", "-this", "-this" ] }
+      }
+    },
+    "animation.enderman.arms_legs": {
+      "loop": true,
+      "bones": {
+        "rightArm": {
+          "rotation": [ "Math.Clamp(this, -22.92, 22.92) - this", 0.0, 0.0 ]
+        },
+        "leftArm": {
+          "rotation": [ "Math.Clamp(this, -22.92, 22.92) - this", 0.0, 0.0 ]
+        },
+        "rightLeg": {
+          "rotation": [ "Math.Clamp(this, -22.92, 22.92) - this", 0.0, 0.0 ]
+        },
+        "leftLeg": {
+          "rotation": [ "Math.Clamp(this, -22.92, 22.92) - this", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.enderman.carrying": {
+      "loop": true,
+      "bones": {
+        "rightArm": {
+          "rotation": [ "-28.65 - this", 0.0, "2.87 - this" ]
+        },
+        "leftArm": {
+          "rotation": [ "-28.65 - this", 0.0, "-2.87 - this" ]
+        }
+      }
+    },
+    "animation.enderman.scary_face": {
+      "loop": true,
+      "bones": {
+        "hat": {
+          "position": [ 0.0, "-5.0 - this", 0.0 ]
+        },
+        "head": {
+          "position": [ 0.0, "5.0 - this", 0.0 ]
+        }
+      }
+    }
+  }
+}

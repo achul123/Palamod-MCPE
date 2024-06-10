@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.snowgolem.move": {
+      "loop": true,
+      "bones": {
+        "piece1": { "rotation": [ 0.0, "query.target_y_rotation * 0.25", 0.0 ] }
+      }
+    },
+      "animation.snowgolem.arms": {
+      "loop": true,
+      "bones": {
+        "arm1": { "rotation": [ 0.0, "(query.target_y_rotation * 0.25)", 57.3 ],
+                  "position": [ "(Math.cos(query.target_y_rotation * 0.25) * 5) - this", 0.0, "(Math.sin(query.target_y_rotation * 0.25) * -5) - this" ] },
+        "arm2": { "rotation": [ 0.0, "((query.target_y_rotation * 0.25) + 180) - this", -57.3 ],
+                  "position": [ "(Math.cos(query.target_y_rotation * 0.25) * -5) - this", 0.0, "(Math.sin(query.target_y_rotation * 0.25) * 5) - this" ] }
+      }
+    }
+  }
+}

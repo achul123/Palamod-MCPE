@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:titane_pickaxe"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      " | ",
+      " | "
+    ],
+    "key": {
+      "#": {
+        "item": "palamod:titane_ingot"
+      },
+      "|": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "palamod:titane_pickaxe",
+        "data": 0
+    }
+  }
+}

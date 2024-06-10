@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.zombie.attack_bare_hand": {
+      "loop": true,
+      "bones": {
+        "rightArm": {
+          "rotation": [ "90 * (variable.is_brandishing_spear - 1.0) - (variable.attack2 * 1.2 - variable.attack * 0.4) + variable.x_bob - this", "variable.attack2 * 0.6 - 5.73 - this", "variable.z_bob - this" ]
+        },
+        "leftArm": {
+          "rotation": [ "-90 - (variable.attack2 * 1.2 - variable.attack * 0.4) - variable.x_bob - this", "5.73 - (variable.attack2 * 0.6) - this", "-variable.z_bob - this" ]
+        }
+      }
+    },  
+    "animation.zombie.swimming": {
+      "loop": true,
+      "bones": {
+        "rightArm": {
+          "rotation": [ "Math.lerprotate(this, -180.0, variable.swim_amount) - (variable.swim_amount * (variable.attack2 * 1.2 - variable.attack * 0.4)) + (variable.swim_amount * variable.x_bob) - this", "Math.lerprotate(this, 14.325, variable.swim_amount) - this", "Math.lerprotate(this, -14.325, variable.swim_amount) + (variable.swim_amount * variable.z_bob) - this" ]
+        },
+        "leftArm": {
+          "rotation": [ "Math.lerprotate(this, -180.0, variable.swim_amount) - (variable.swim_amount * (variable.attack2 * 1.2 - variable.attack * 0.4)) - (variable.swim_amount * variable.x_bob) - this", "Math.lerprotate(this, 14.325, variable.swim_amount) - this", "Math.lerprotate(this, 14.325, variable.swim_amount) - (variable.swim_amount * variable.z_bob) - this" ]
+        }
+      }
+    }
+  }
+}

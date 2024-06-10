@@ -1,0 +1,41 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.blaze_trail.move": {
+      "loop": true,
+      "animation_length": 2.0,
+      "bones": {
+        "blaze_trail": {
+		  "position": {
+		    "0.0": [ 0.0, 0.0, 0.0 ],
+		    "2.0": [ 0.0, 32.0, 0.0 ]
+		  }
+        }
+      }
+    },
+    "animation.bubble_trail.move": {
+      "loop": true,
+      "animation_length": 2.0,
+      "bones": {
+        "bubble_trail": {
+		  "position": {
+		    "0.0": [ 0.0, 0.0, 0.0 ],
+		    "2.0": [ 0.0, -32.0, 0.0 ]
+		  }
+        }
+      }
+    },
+    "animation.star_trail.move": {
+      "loop": true,
+      "animation_length": 0.75,
+      "bones": {
+        "star_trail": {
+		  "position": {
+		    "0.0": [ 0.0, 0.0, 0.0 ],
+		    "0.75": [ 0.0, 16.0, 0.0 ]
+		  }
+        }
+      }
+    }
+  }
+}

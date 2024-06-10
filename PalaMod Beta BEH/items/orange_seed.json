@@ -1,0 +1,17 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "palamod:orange_seed"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:seed": {
+				"plant_at": [
+					"minecraft:farmland"
+				],
+				"crop_result": "palamod:orange_crop"
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:hand_glider",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "hand_glider",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

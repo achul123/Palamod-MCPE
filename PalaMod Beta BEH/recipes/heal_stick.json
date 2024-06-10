@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:heal_stick"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PXP",
+      "#M#"
+    ],
+    "key": {
+      "X": {
+        "item": "palamod:heal_orb"
+      },
+      "#": {
+        "item": "palamod:paladium"
+        },
+      "P": {
+        "item": "palamod:paladium_stick"
+        },
+      "M": {
+        "item": "palamod:paladium_machine"
+      }
+    },
+    "result": {
+      "item": "palamod:heal_stick",
+      "count": 64
+    }
+  }
+}

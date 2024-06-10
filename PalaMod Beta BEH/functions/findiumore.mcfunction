@@ -1,0 +1,1 @@
+fill ~ ~-50 ~ ~ ~-50 ~1 findium_ore

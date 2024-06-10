@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:strength_stick"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": true,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 10,
+      "minecraft:foil": true,
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "strength",
+            "chance": 1.0,
+            "duration": 30,
+            "amplifier": 2
+          }
+        ]
+      }
+    }
+  }
+}

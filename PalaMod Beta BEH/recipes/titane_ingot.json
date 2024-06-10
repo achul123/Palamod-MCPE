@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:titane_ingot"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "X"
+    ],
+    "key": {
+      "X": {
+        "item": "palamod:titane_block"
+      },
+      "#": {
+        "item": "minecraft:bedrock"
+      }
+    },
+    "result": {
+      "item": "palamod:titane_ingot",
+      "count": 9
+    }
+  }
+}

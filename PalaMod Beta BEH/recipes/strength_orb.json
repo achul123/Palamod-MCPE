@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:strength_orb"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " X ",
+      "X#X",
+      " X "
+    ],
+    "key": {
+      "X": {
+        "item": "palamod:paladium"
+      },
+      "#": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "result": {
+      "item": "palamod:strength_orb"
+    }
+  }
+}

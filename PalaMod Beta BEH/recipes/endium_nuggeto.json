@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "palamod:oendium"
+    },
+
+    
+    "tags": ["smoker"],
+    "input": "palamod:orange_blue",
+    "output": "palamod:endium_nugget"
+  }
+  
+}

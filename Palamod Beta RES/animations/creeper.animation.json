@@ -1,0 +1,37 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.creeper.swelling": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "head": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        }
+      }
+    },
+    "animation.creeper.legs": {
+      "loop": true,
+      "bones": {
+        "leg0": {
+          "rotation": [ "variable.leg_rot - this", 0.0, 0.0 ]
+        },
+        "leg1": {
+          "rotation": [ "-variable.leg_rot - this", 0.0, 0.0 ]
+        },
+        "leg2": {
+          "rotation": [ "-variable.leg_rot - this", 0.0, 0.0 ]
+        },
+        "leg3": {
+          "rotation": [ "variable.leg_rot - this", 0.0, 0.0 ]
+        }
+      }
+    }
+  }
+}

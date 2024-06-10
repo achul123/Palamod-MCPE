@@ -1,0 +1,44 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.vindicator.base": {
+      "loop": true,
+      "bones": {
+        "arms": {
+          "position": [ 0.0, "-3.0 - this", "-1.0 - this" ],
+          "rotation": [ "-42.97 - this", 0.0, 0.0 ]
+        },
+        "leftArm": {
+          "rotation": [ "Math.cos(query.life_time * 20.0 * 3.84) * 2.87", -9.0, "-1 * (Math.cos(query.life_time * 20.0 * 5.16) * 2.87 + 2.87)" ],
+          "scale": "query.is_angry ? 1.0 : 0.0"
+        },
+        "rightArm": {
+          "rotation": [ "Math.cos(query.life_time * 20.0 * 3.84) * 2.87", 9.0, "Math.cos(query.life_time * 20.0 * 5.16) * 2.87 + 2.87" ],
+          "scale": "query.is_angry ? 1.0 : 0.0"
+        }
+      }
+    },
+    "animation.vindicator.attack": {
+      "loop": true,
+      "bones": {
+        "leftArm": {
+          "rotation": [ "(Math.cos(query.life_time * 20.0 * 10.89) * 28.65) + (variable.attack2 * 68.76 - variable.attack * 22.92)", 0.0, 0.0 ]
+        },
+        "rightArm": {
+          "rotation": [ "(-108 + Math.cos(query.life_time * 20.0 * 3.84) * 2.87) + (variable.attack2 * 126.05 - variable.attack * 22.92)", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.vindicator.walk": {
+      "loop": true,
+      "bones": {
+        "leg0": {
+          "rotation": [ "(Math.cos(query.modified_distance_moved * 38.17) * 80.21) * query.modified_move_speed * 0.5", 0.0, 0.0 ]
+        },
+        "leg1": {
+          "rotation": [ "(Math.cos(query.modified_distance_moved * 38.17 + 180) * 80.21) * query.modified_move_speed * 0.5", 0.0, 0.0 ]
+        }
+      }
+    }
+  }
+}

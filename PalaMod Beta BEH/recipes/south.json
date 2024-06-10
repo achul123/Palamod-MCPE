@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "slope_south_flipped"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 0,
+    "ingredients": [
+      {
+        "item": "minecraft:planks",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "spawn_egg",
+      "data": 267,
+      "count": 2
+    }
+  }
+  
+}

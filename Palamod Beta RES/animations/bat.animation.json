@@ -1,0 +1,59 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.bat.resting": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [ "query.target_x_rotation", "180.0f - query.target_y_rotation", 180.0 ],
+          "position": [ 0.0, -0.035, 0.0 ]
+        },
+        "body": {
+          "rotation": [ 180.0, 0.0, 0.0 ],
+          "position": [ 0.0, -0.035, 0.0 ]
+        },
+        "rightWing": {
+          "position": [ -3.0, 0.0, 3.0 ],
+          "rotation": [ -9.0, -72.0, 0.0 ]
+        },
+        "leftWing": {
+          "position": [ 3.0, 0.0, 3.0 ],
+          "rotation": [ -9.0, 72.0, 0.0 ]
+        },
+        "rightWingTip": {
+          "rotation": [ 0.0, -99.0, 0.0 ]
+        },
+        "leftWingTip": {
+          "rotation": [ 0.0, 99.0, 0.0 ]
+        }
+      }
+    },
+    "animation.bat.flying": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ],
+          "position": [ "-this", "Math.cos(query.life_time * 343.774) * 1.6 - this", "-this" ]
+        },
+        "body": {
+          "rotation": [ "45.0 - Math.cos(query.life_time * 1489.6) * 8.59", 0.0, 0.0 ],
+          "position": [ 0.0, "Math.cos(query.life_time * 343.774) * 1.6", 0.0 ]
+        },
+        "rightWing": {
+          "rotation": [ 0.0, "Math.cos(query.life_time * 1489.6) * 45.0", 0.0 ],
+          "position": [ "-this", "-this", "-this" ]
+        },
+        "leftWing": {
+          "rotation": [ 0.0, "Math.cos(query.life_time * 1489.6) * -45.0", 0.0 ],
+          "position": [ "-this", "-this", "-this" ]
+        },
+        "rightWingTip": {
+          "rotation": [ 0.0, "Math.cos(query.life_time * 1489.6) * 22.0", 0.0 ]
+        },
+        "leftWingTip": {
+          "rotation": [ 0.0, "Math.cos(query.life_time * 1489.6) * -22.0", 0.0 ]
+        }
+      }
+    }
+  }
+}

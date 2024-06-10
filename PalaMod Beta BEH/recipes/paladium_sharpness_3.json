@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:paladium_sharpness_3"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "X#X",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:diamond"
+      },
+      "#": {
+        "item": "palamod:p_sharpness2"
+      }
+    },
+    "result": {
+      "item": "palamod:p_sharpness3"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:titane_sword"
+    },  
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "X",
+      "X",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "palamod:titane_ingot"
+      }
+    },
+    "result": {
+      "item": "palamod:titane_sword"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:paladium_pickaxe",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "paladium_pickaxe",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

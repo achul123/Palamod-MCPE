@@ -1,0 +1,1 @@
+fill ~ ~-10 ~ ~ ~-10 ~10 amethyst_ore

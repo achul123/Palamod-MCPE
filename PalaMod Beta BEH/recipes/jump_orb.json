@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:jump_orb"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " X ",
+      "X#X",
+      " X "
+    ],
+    "key": {
+      "X": {
+        "item": "palamod:paladium"
+      },
+      "#": {
+        "item": "minecraft:nether_wart"
+      }
+    },
+    "result": {
+      "item": "palamod:jump_orb"
+    }
+  }
+}

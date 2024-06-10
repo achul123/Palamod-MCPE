@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.illager_beast.idle_mouth": {
+      "loop": true,
+      "bones": {
+        "mouth": {
+          "rotation": [ 1.8, 0, 0 ]
+        },
+        "neck": {
+          "position": [ 0, 0, 0 ]
+        }
+      }
+    },
+    "animation.illager_beast.walk": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "leg0": { "rotation": [ "Math.cos(query.anim_time * 38.17) *  22.92", 0.0, 0.0 ] },
+        "leg1": { "rotation": [ "Math.cos(query.anim_time * 38.17) * -22.92", 0.0, 0.0 ] },
+        "leg2": { "rotation": [ "Math.cos(query.anim_time * 38.17) * -22.92", 0.0, 0.0 ] },
+        "leg3": { "rotation": [ "Math.cos(query.anim_time * 38.17) *  22.92", 0.0, 0.0 ] }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.ocelot.baby_transform": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "scale": 1.5
+        }
+      }
+    },
+    "animation.ocelot.sit": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [ 0.0, "-3.0 - this", "3.0 - this" ],
+          "rotation": [ "-45 - this", 0.0, 0.0 ]
+        },
+        "tail1": {
+          "position": [ 0.0, 0.0, 0.0 ],
+          "rotation": [ "45 - this", 0.0, 0.0 ]
+        },
+        "tail2": {
+          "position": [ 0.0, 0.0, 0.0 ],
+          "rotation": [ "45 - this", 0.0, 0.0 ]
+        },
+        "backLegL": {
+          "position": [ 0.0, "1.0 - this", "-2.0 - this" ],
+          "rotation": [ "-45", 0.0, 0.0 ]
+        },
+        "backLegR": {
+          "position": [ 0.0, "1.0 - this", "-2.0 - this" ],
+          "rotation": [ "-45 - this", 0.0, 0.0 ]
+        },
+        "frontLegL": {
+          "position": [ 0.0, "-4.5 - this", "-1.0 - this" ],
+          "rotation": [ "42.15 - this", 0.0, 0.0 ]
+        },
+        "frontLegR": {
+          "position": [ 0.0, "-4.5 - this", "-1.0 - this" ],
+          "rotation": [ "42.15 - this", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.ocelot.walk": {
+      "loop": true,
+      "bones": {
+        "backLegL": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ] },
+        "backLegR": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ] },
+        "frontLegL": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ] },
+        "frontLegR": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ] },
+        "tail1": { "rotation": [ "-51.57 - this", 0.0, 0.0 ] },
+        "tail2": { "rotation": [ "62.0 + Math.cos(query.modified_distance_moved * 57.3) * 45.0 * query.modified_move_speed - this", 0.0, 0.0 ] }
+      }
+    },
+    "animation.ocelot.sneak": {
+      "loop": true,
+      "bones": {
+        "body": { "position": [ 0.0, -1.0, 0.0 ] },
+        "head": { "position": [ 0.0, -1.0, 0.0 ] },
+        "backLegL": {
+          "position": [ 0.0, "1.0 - this", 0.0 ],
+          "rotation": [ "Math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ]
+        },
+        "backLegR": {
+          "position": [ 0.0, "1.0 - this", 0.0 ],
+          "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ]
+        },
+        "frontLegL": {
+          "position": [ 0.0, "1.0 - this", 0.0 ],
+          "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ]
+        },
+        "frontLegR": {
+          "position": [ 0.0, "1.0 - this", 0.0 ],
+          "rotation": [ "Math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ]
+        },
+        "tail1": { "position": [ 0.0, "1.0 - this", 0.0 ] },
+        "tail2": { "rotation": [ "62.0 + Math.cos(query.modified_distance_moved * 57.3) * 27.0 * query.modified_move_speed - this", 0.0, 0.0 ] }
+      }
+    },
+    "animation.ocelot.sprint": {
+      "loop": true,
+      "bones": {
+        "backLegL": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ] },
+        "backLegR": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 17.19) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ] },
+        "frontLegL": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 197.19) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ] },
+        "frontLegR": { "rotation": [ "Math.cos(query.modified_distance_moved * 38.17 + 180.0) * 57.3 * query.modified_move_speed - this", 0.0, 0.0 ] },
+        "tail1": { "rotation": [ "-this", 0.0, 0.0 ] },
+        "tail2": { "rotation": [ "62.0 + Math.cos(query.modified_distance_moved * 57.3) * 18.0 * query.modified_move_speed - this", 0.0, 0.0 ] }
+      }
+    }
+  }
+}

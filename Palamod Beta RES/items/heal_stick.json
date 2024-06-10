@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:heal_stick",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "heal_stick",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

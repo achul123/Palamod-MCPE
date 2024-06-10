@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:e_sharpness4",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "endium_sword",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

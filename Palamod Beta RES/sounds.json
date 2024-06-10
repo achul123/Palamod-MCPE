@@ -1,0 +1,177 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "mogolems:golden": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.irongolem.say",
+          "hurt": "mob.irongolem.hit",
+          "death": "mob.irongolem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.irongolem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "mogolems:emerald": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.irongolem.say",
+          "hurt": "mob.irongolem.hit",
+          "death": "mob.irongolem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.irongolem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "mogolems:obsidian": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.irongolem.say",
+          "hurt": "mob.irongolem.hit",
+          "death": "mob.irongolem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.irongolem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "mogolems:diamond": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.irongolem.say",
+          "hurt": "mob.irongolem.hit",
+          "death": "mob.irongolem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.irongolem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "mogolems:snow": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.irongolem.say",
+          "hurt": "mob.irongolem.hit",
+          "death": "mob.irongolem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.irongolem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "mogolems:forgotten": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.irongolem.say",
+          "hurt": "mob.irongolem.hit",
+          "death": "mob.irongolem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.irongolem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "mogolems:vine_forgotten": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.irongolem.say",
+          "hurt": "mob.irongolem.hit",
+          "death": "mob.irongolem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.irongolem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "mogolems:grass": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.irongolem.say",
+          "hurt": "mob.irongolem.hit",
+          "death": "mob.irongolem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.irongolem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "mogolems:stone": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.irongolem.say",
+          "hurt": "mob.irongolem.hit",
+          "death": "mob.irongolem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.irongolem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      }
+    }
+  }
+}

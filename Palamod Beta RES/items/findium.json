@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:findium",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "findium",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

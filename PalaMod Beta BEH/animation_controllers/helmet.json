@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.helmet": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "removing_plants": "(1.0)"
+            }
+          ],
+          "on_entry": [
+          "/effect @p night_vision 15 1 true",
+          "/tp @e [type=palamod:helmet] ~ ~10 ~"
+          ]
+        },
+        "removing_plants": {
+          "transitions": [
+            {
+              "default": "(1.0)"
+            }
+          ],
+          "on_entry": [
+          "/effect @p night_vision 15 1 true",
+          "/tp @e [type=palamod:helmet] ~ ~10 ~"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:endium_sword"
+    },  
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "X",
+      "X",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "palamod:endium_ingot"
+      }
+    },
+    "result": {
+      "item": "palamod:endium_sword"
+    }
+  }
+}

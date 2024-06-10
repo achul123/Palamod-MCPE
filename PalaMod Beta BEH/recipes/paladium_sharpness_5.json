@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:paladium_sharpness_5"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "X#X",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "palamod:paladium"
+      },
+      "#": {
+        "item": "palamod:p_sharpness4"
+      }
+    },
+    "result": {
+      "item": "palamod:p_sharpness5"
+    }
+  }
+}

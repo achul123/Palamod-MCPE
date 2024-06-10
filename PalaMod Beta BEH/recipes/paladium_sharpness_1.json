@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:paladium_sharpness_1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "X#X",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "palamod:titane_ingot"
+      },
+      "#": {
+        "item": "palamod:paladium_sword"
+      }
+    },
+    "result": {
+      "item": "palamod:p_sharpness1"
+    }
+  }
+}

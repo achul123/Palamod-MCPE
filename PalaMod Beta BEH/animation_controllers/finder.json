@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.finder": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "removing_plants": "(1.0)"
+            }
+          ],
+          "on_entry": [
+          "/function finder"
+          ]
+        },
+        "removing_plants": {
+          "transitions": [
+            {
+              "default": "(1.0)"
+            }
+          ],
+          "on_entry": [
+          "/function finder"
+          ]
+        }
+      }
+    }
+  }
+}

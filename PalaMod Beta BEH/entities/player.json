@@ -1,0 +1,970 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:normal_player": {
+        "minecraft:spell_effects": {
+          "remove_effects": [
+            "slow_falling",
+            "haste"
+          ]
+        },
+        "minecraft:attack": {
+          "damage": 1
+       },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      },
+      "palamod:paladium_sword": {
+        "minecraft:attack": {
+          "damage": 10
+        }
+      },
+      "palamod:paladium_hammer": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "spawn_entity": "palamod:hammer",
+            "num_to_spawn": 1,
+            "single_use": true
+          }
+        ]
+      },
+      "palamod:finder": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "spawn_entity": "palamod:finder",
+            "num_to_spawn": 1,
+            "single_use": true
+          }
+        ]
+      },
+      "palamod:phelmet": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "spawn_entity": "palamod:helmet",
+            "num_to_spawn": 1,
+            "single_use": true
+          }
+        ]
+      },
+      "palamod:p_sharpness1": {
+        "minecraft:attack": {
+          "damage": 11
+        }
+      },
+      "palamod:p_sharpness2": {
+        "minecraft:attack": {
+          "damage": 12
+        }
+      },
+      "palamod:boots": {
+        "minecraft:movement": {
+          "value": 0.14
+        }
+      },
+      "palamod:p_sharpness3": {
+        "minecraft:attack": {
+          "damage": 13
+        }
+      },
+      "palamod:p_sharpness4": {
+        "minecraft:attack": {
+          "damage": 14
+        }
+      },
+      "palamod:p_sharpness5": {
+        "minecraft:attack": {
+          "damage": 15
+        }
+      },
+      "palamod:amethyst_sword": {
+        "minecraft:attack": {
+          "damage": 8
+        }
+      },
+      "palamod:titane_sword": {
+        "minecraft:attack": {
+          "damage": 9
+          }
+      },
+      "palamod:e_sharpness2": {
+        "minecraft:attack": {
+          "damage": 13
+        }
+      },
+      "palamod:e_sharpness3": {
+        "minecraft:attack": {
+          "damage": 14
+        }
+      },
+      "palamod:e_sharpness4": {
+        "minecraft:attack": {
+          "damage": 15
+        }
+      },
+      "palamod:e_sharpness5": {
+        "minecraft:attack": {
+          "damage": 16
+        }
+      },
+      "palamod:e_sharpness1": {
+        "minecraft:attack": {
+          "damage": 12
+        }
+      },
+      "palamod:endium_sword": {
+        "minecraft:attack": {
+          "damage": 11
+          }
+      },
+      "palamod:hand_glider": {
+        "minecraft:attack": {
+          "damage": 2
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "slow_falling",
+              "amplifier": 0,
+              "visible": false,
+              "ambient": false,
+              "duration": 100000
+            }
+          ]
+        }
+      },
+      "palamod:endium_pickaxe":{  
+        "minecraft:attack":{
+          "damage": 9
+        },
+        "minecraft:spell_effects":{
+          "add_effects":[
+            {
+              "effect":"haste",
+              "amplifier": 14,
+              "visible":false,
+              "ambient":false,
+              "duration":1000000
+            }
+          ]
+        }
+      },
+      "palamod:paladium_pickaxe":{  
+        "minecraft:attack":{
+          "damage": 8
+        },
+        "minecraft:spell_effects":{
+          "add_effects":[
+            {
+              "effect":"haste",
+              "amplifier": 12,
+              "visible":false,
+              "ambient":false,
+              "duration":1000000
+            }
+          ]
+        }
+      },
+      "palamod:titane_pickaxe":{  
+        "minecraft:attack":{
+          "damage": 7
+        },
+        "minecraft:spell_effects":{
+          "add_effects":[
+            {
+              "effect":"haste",
+              "amplifier": 11,
+              "visible":false,
+              "ambient":false,
+              "duration":1000000
+            }
+          ]
+        }
+      },
+      "palamod:amethyst_pickaxe":{  
+        "minecraft:attack":{
+          "damage":  6
+        },
+        "minecraft:spell_effects":{
+          "add_effects":[
+            {
+              "effect":"haste",
+              "amplifier": 10,
+              "visible":false,
+              "ambient":false,
+              "duration":1000000
+            }
+          ]
+        }
+      },
+        
+      "minecraft:add_bad_omen": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "bad_omen",
+              "duration": 6000,
+              "display_on_screen_animation": true
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": [
+            0,
+            0
+          ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:clear_add_bad_omen",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:clear_bad_omen_spell_effect": {
+        "minecraft:spell_effects": {}
+      },
+      "minecraft:raid_trigger": {
+        "minecraft:raid_trigger": {
+          "triggered_event": {
+            "event": "minecraft:remove_raid_trigger",
+            "target": "self"
+          }
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": "bad_omen"
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "player"
+        ]
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {},
+      "minecraft:player.saturation": {
+        "value": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": -1,
+        "inhaleTime": 3.75,
+        "generatesBubbles": false
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      },
+      "minecraft:physics": {},
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [
+              0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [
+              -0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:scaffolding_climber": {},
+      "minecraft:environment_sensor": [
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_mob_effect",
+                  "subject": "self",
+                  "value": "bad_omen"
+                },
+                {
+                  "test": "is_in_village",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:trigger_raid"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "minecraft:event_normal_player"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:paladium_sword"
+                }
+              ]
+            },
+            "event": "palamod:paladium_sword"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:unclaim_finder"
+                }
+              ]
+            },
+            "event": "palamod:finder"
+         }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "armor",
+                  "value": "minecraft:diamond_helmet"
+                }
+              ]
+            },
+            "event": "palamod:phelmet"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "armor",
+                  "value": "minecraft:chainmail_helmet"
+                }
+              ]
+            },
+            "event": "palamod:phelmet"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "armor",
+                  "value": "minecraft:turtle_helmet"
+                }
+              ]
+            },
+            "event": "palamod:phelmet"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "armor",
+                  "value": "minecraft:diamond_boots"
+                }
+              ]
+            },
+            "event": "palamod:boots" 
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:p_sharpness1"
+                }
+              ]
+            },
+            "event": "palamod:p_sharpness1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:paladium_hammer"
+                }
+              ]
+            },
+            "event": "palamod:paladium_hammer"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:p_sharpness2"
+                }
+              ]
+            },
+            "event": "palamod:p_sharpness2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:p_sharpness3"
+                }
+              ]
+            },
+            "event": "palamod:p_sharpness3"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:p_sharpness4"
+                }
+              ]
+            },
+            "event": "palamod:p_sharpness4"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:p_sharpness5"
+                }
+              ]
+            },
+            "event": "palamod:p_sharpness5"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:e_sharpness2"
+                }
+              ]
+            },
+            "event": "palamod:e_sharpness2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:e_sharpness3"
+                }
+              ]
+            },
+            "event": "palamod:e_sharpness3"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:e_sharpness1"
+                }
+              ]
+            },
+            "event": "palamod:e_sharpness1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:e_sharpness4"
+                }
+              ]
+            },
+            "event": "palamod:e_sharpness4"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:e_sharpness5"
+                }
+              ]
+            },
+            "event": "palamod:e_sharpness5"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:titane_sword"
+                }
+              ]
+            },
+            "event": "palamod:titane_sword"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:endium_pickaxe"
+                }
+              ]
+            },
+            "event": "palamod:endium_pickaxe"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:endium_sword"
+                }
+              ]
+            },
+            "event": "palamod:endium_sword"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:hand_glider"
+                }
+              ]
+            },
+            "event": "palamod:hand_glider"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:amethyst_sword"
+                }
+              ]
+            },
+            "event": "palamod:amethyst_sword"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:paladium_pickaxe"
+                }
+              ]
+            },
+            "event": "palamod:paladium_pickaxe"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:amethyst_pickaxe"
+                }
+              ]
+            },
+            "event": "palamod:amethyst_pickaxe"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "palamod:titane_pickaxe"
+                }
+              ]
+            },
+            "event": "palamod:titane_pickaxe"
+          }
+        }
+      ]
+    },
+    "events": {
+      "minecraft:event_normal_player": {
+        "add": {
+          "component_groups": [
+            "minecraft:normal_player"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "palamod:paladium_sword",
+            "palamod:hand_glider",
+            "palamod:amethyst_sword",
+            "palamod:titane_sword",
+            "palamod:paladium_pickaxe",
+            "palamod:titane_pickaxe",
+            "palamod:amethyst_pickaxe",
+            "p_sharpness1",
+            "p_sharpness2",
+            "p_sharpness3",
+            "p_sharpness4",
+            "p_sharpness5",
+            "palamod:endium_sword",
+            "palamod:endium_pickaxe",
+            "palamod:paladium_hammer",
+            "e_sharpness1",
+            "e_sharpness2",
+            "e_sharpness3",
+            "e_sharpness4",
+            "e_sharpness5",
+            "phelmet",
+            "finder",
+            "boots"
+          ]
+        }
+      },
+      "palamod:paladium_sword": {
+        "add": {
+          "component_groups": [
+            "palamod:paladium_sword"
+            ]
+        }
+      },
+      "palamod:finder": {
+        "add": {
+          "component_groups": [
+            "palamod:finder"
+            ]
+        }
+      },
+      "palamod:endium_sword": {
+        "add": {
+          "component_groups": [
+            "palamod:endium_sword"
+          ]
+        }
+      },
+      "palamod:p_sharpness1": {
+        "add": {
+          "component_groups": [
+            "palamod:p_sharpness1"
+            ]
+        }
+      },
+      "palamod:boots": {
+        "add": {
+          "component_groups": [
+            "palamod:boots"
+          ]
+        }
+      },
+      "palamod:phelmet": {
+        "add": {
+          "component_groups": [
+            "palamod:phelmet"
+          ]
+        }
+      },
+      "palamod:paladium_hammer": {
+        "add": {
+          "component_groups": [
+            "palamod:paladium_hammer"
+          ]
+        }
+      },
+      "palamod:p_sharpness2": {
+        "add": {
+          "component_groups": [
+            "palamod:p_sharpness2"
+          ]
+        }
+      },
+      "palamod:p_sharpness3": {
+        "add": {
+          "component_groups": [
+            "palamod:p_sharpness3"
+          ]
+        }
+      },
+      "palamod:p_sharpness4": {
+        "add": {
+          "component_groups": [
+            "palamod:p_sharpness4"
+          ]
+        }
+      },
+      "palamod:p_sharpness5": {
+        "add": {
+          "component_groups": [
+            "palamod:p_sharpness5"
+            ]
+        }
+      },
+      "palamod:e_sharpness1": {
+        "add": {
+          "component_groups": [
+            "palamod:e_sharpness1"
+            ]
+        }
+      },
+      "palamod:e_sharpness2": {
+        "add": {
+          "component_groups": [
+            "palamod:e_sharpness2"
+          ]
+        }
+      },
+      "palamod:e_sharpness3": {
+        "add": {
+          "component_groups": [
+            "palamod:e_sharpness3"
+          ]
+        }
+      },
+      "palamod:e_sharpness4": {
+        "add": {
+          "component_groups": [
+            "palamod:e_sharpness4"
+          ]
+        }
+      },
+      "palamod:e_sharpness5": {
+        "add": {
+          "component_groups": [
+            "palamod:e_sharpness5"
+          ]
+        }
+      },
+      "palamod:titane_sword": {
+        "add": {
+          "component_groups": [
+            "palamod:titane_sword"
+          ]
+        }
+      },
+      "palamod:hand_glider": {
+        "add": {
+          "component_groups": [
+            "palamod:hand_glider"
+          ]
+        }
+      },
+      "palamod:amethyst_sword": {
+        "add": {
+          "component_groups": [
+            "palamod:amethyst_sword"
+          ]
+        }
+      },
+      "palamod:paladium_pickaxe": {
+        "add": {
+          "component_groups": [
+            "palamod:paladium_pickaxe"
+          ]
+        }
+      },
+      "palamod:titane_pickaxe": {
+        "add": {
+          "component_groups": [
+            "palamod:titane_pickaxe"
+            ]
+        }
+      },
+      "palamod:endium_pickaxe": {
+        "add": {
+          "component_groups": [
+            "palamod:endium_pickaxe"
+          ]
+        }
+      },
+      "palamod:amethyst_pickaxe": {
+        "add": {
+          "component_groups": [
+            "palamod:amethyst_pickaxe"
+          ]
+        }
+      },
+      "minecraft:gain_bad_omen": {
+        "add": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        }
+      },
+      "minecraft:clear_add_bad_omen": {
+        "remove": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:clear_bad_omen_spell_effect"
+          ]
+        }
+      },
+      "minecraft:trigger_raid": {
+        "add": {
+          "component_groups": [
+            "minecraft:raid_trigger"
+          ]
+        }
+      },
+      "minecraft:remove_raid_trigger": {
+        "remove": {
+          "component_groups": [
+            "minecraft:raid_trigger"
+          ]
+        }
+      }
+    }
+  }
+}

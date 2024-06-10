@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "palamod:orange_blue",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "orange_blue",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

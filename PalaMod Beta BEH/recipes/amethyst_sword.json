@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "palamod:amethyst_sword"
+    },  
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "X",
+      "X",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "palamod:amethyst_ingot"
+      }
+    },
+    "result": {
+      "item": "palamod:amethyst_sword"
+    }
+  }
+}

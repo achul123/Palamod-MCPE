@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "palamod:furnace_paladium_ore"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "palamod:paladium_ore",
+    "output": "palamod:paladium"
+  }
+  
+}

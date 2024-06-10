@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Beta V3.1",
+        "name": "Palamod par SMSU01 | Restaurer par achul123",
+        "uuid": "c2e0ab25-9e0f-4965-a37e-48eb70a275f7",
+        "version": [1, 0, 0],
+		"min_engine_version": [1, 19, 20]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "0167b85c-fe49-4aa8-8e0e-3e8ef9cf3a05",
+            "version": [0, 0, 1]
+        }
+    ]
+}
