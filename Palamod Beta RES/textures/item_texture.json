@@ -25,10 +25,20 @@
     "amethyst_ingot": {"textures": "textures/items/amethyst_ingot.png"},
     "amethyst_pickaxe": {"textures": "textures/items/amethyst_pickaxe.png"},
 
+    "amethyst_helmet":{"textures":"textures/items/amethyst_helmet.png"},
+    "amethyst_chestplate":{"textures":"textures/items/amethyst_chestplate.png"},
+    "amethyst_leggings":{"textures":"textures/items/amethyst_leggings.png"},
+    "amethyst_boots":{"textures":"textures/items/amethyst_boots.png"},
+
 
     "titane_sword": {"textures": "textures/items/titane_sword.png"},
     "titane_pickaxe": {"textures": "textures/items/titane_pickaxe.png"},
     "titane_ingot": {"textures": "textures/items/titane_ingot.png"},
+
+    "titane_helmet":{"textures":"textures/items/titane_helmet.png"},
+    "titane_chestplate":{"textures":"textures/items/titane_chestplate.png"},
+    "titane_leggings":{"textures":"textures/items/titane_leggings.png"},
+    "titane_boots":{"textures":"textures/items/titane_boots.png"},
 
 
     "paladium_sword": {"textures": "textures/items/paladium_sword.png"},
@@ -64,8 +74,18 @@
     "orange_blue": {"textures": "textures/items/orange_blue.png"},
     "orange_seed": {"textures": "textures/items/orange_seed.png"},
 
+    "endium_helmet":{"textures":"textures/items/endium_helmet.png"},
+    "endium_chestplate":{"textures":"textures/items/endium_chestplate.png"},
+    "endium_leggings":{"textures":"textures/items/endium_leggings.png"},
+    "endium_boots":{"textures":"textures/items/endium_boots.png"},
+
 
     "paladium_green_ingot": {"textures": "textures/items/paladium_green.png"},
+
+    "paladium_green_helmet":{"textures":"textures/items/paladium_green_helmet.png"},
+    "paladium_green_chestplate":{"textures":"textures/items/paladium_green_chestplate.png"},
+    "paladium_green_leggings":{"textures":"textures/items/paladium_green_leggings.png"},
+    "paladium_green_boots":{"textures":"textures/items/paladium_green_boots.png"},
 
     
     "findium": {"textures": "textures/items/findium.png"}

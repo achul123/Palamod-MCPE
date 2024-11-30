@@ -1,5 +1,5 @@
 {
-  "format_version": [  1, 1, 0 ],
+  "format_version": "1.21.20",
     "palamod:paladium_ore": {
       "textures": "paladium_ore",
       "sound": "stone"
@@ -40,10 +40,8 @@
       "textures": "findium_block",
       "sound": "stone"
     },
-    "palamod:orange_crop": {
-      "blockshape": "deadbush",
-      "textures": "orange_crop",
-      "sound": "stone"
+    "palamod:orange_blue_crop": {
+      "sound": "grass"
     },
     "palamod:findium_ore": {
       "textures": "findium_ore",

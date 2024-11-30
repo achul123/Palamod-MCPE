@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+	  "description": {
+        "identifier": "palamod:paladium_green_ingot"
+    },
+    "components": {
+      "minecraft:stacked_by_data": true,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": false
+	  }
+  }
+}

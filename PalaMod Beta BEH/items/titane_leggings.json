@@ -1,0 +1,38 @@
+{
+    "format_version": "1.21.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "palamod:titane_leggings",
+			"menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.leggings"
+            }
+		},
+		"components": {
+			"minecraft:icon": "titane_leggings",
+			"minecraft:display_name": {
+                "value": "Titane Leggings"
+            },
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "armor_legs"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["minecraft:stick"],
+						"repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+					}
+				]
+			},
+			"minecraft:wearable": {
+                "slot": "slot.armor.legs",
+                "protection": 5
+            },
+			"minecraft:durability": {
+				"max_durability": 200
+			}
+		}
+	}
+}

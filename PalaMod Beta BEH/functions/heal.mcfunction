@@ -1,0 +1,1 @@
+effect @s instant_heal 1 255 true

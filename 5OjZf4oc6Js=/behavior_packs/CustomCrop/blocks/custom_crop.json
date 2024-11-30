@@ -1,0 +1,163 @@
+{
+    "format_version": "1.21.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "wiki:custom_crop",
+            "menu_category": {
+                "category": "none" // Hide from creative inventory - seeds should be used to place.
+            },
+            "states": {
+                "wiki:growth": {
+                    "values": { "min": 0, "max": 7 }
+                }
+            }
+        },
+        "components": {
+            "minecraft:flammable": true,
+            "minecraft:collision_box": false,
+            "minecraft:geometry": "geometry.crop",
+            "minecraft:light_dampening": 0,
+            // Break the crop if it isn't placed on farmland.
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": ["up"],
+                        "block_filter": ["minecraft:farmland"]
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('wiki:growth') < 7",
+                "components": {
+                    // Loot table for when the crop is not fully grown. Vanilla crops only drop seeds when young.
+                    "minecraft:loot": "loot_tables/blocks/custom_crop_young.json",
+                    // Trigger growth on random ticks and when interacting with bonemeal.
+                    "minecraft:custom_components": ["wiki:custom_crop_growth"]
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:growth') >= 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "custom_crop_0",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:growth') == 0",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 1.6, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:growth') == 1",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 3.2, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:growth') == 6",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 11.2, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:growth') >= 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "custom_crop_1",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:growth') == 2",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 4.8, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:growth') == 3",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 6.4, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:growth') >= 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "custom_crop_2",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:growth') == 4",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 8, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:growth') == 5",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 9.6, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:growth') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "custom_crop_3",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 12.8, 16]
+                    },
+                    // Drop different loot when fully grown
+                    "minecraft:loot": "loot_tables/blocks/custom_crop_mature.json"
+                }
+            }
+        ]
+    }
+}

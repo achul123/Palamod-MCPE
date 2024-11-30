@@ -50,8 +50,8 @@ item.palamod:paladium_apple.name=Pomme en Paladium
 item.palamod:orange_seed.name=Graine en Endium
 item.palamod:orange_blue.name=Orange Blue
 item.palamod:hand_glider.name=Hand Glider
-item.palamod.diamond_string.name=Ficelle en Diamand
-item.palamod.paladium_hammer.name=Hammer en Paladium
+item.palamod:diamond_string.name=Ficelle en Diamand
+item.palamod:paladium_hammer.name=Hammer en Paladium
 
 tile.palamod:paladium_machine.name=Paladium Machine
 tile.palamod:paladium_ore.name=Minerais de Paladium

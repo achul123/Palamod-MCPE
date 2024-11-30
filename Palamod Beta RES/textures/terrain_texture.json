@@ -1,8 +1,8 @@
 {
+  "num_mip_levels": 4,
+  "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.terrain",
-  "padding": 8,
-  "num_mip_levels": 4,
   "texture_data": {
     "paladium_block": {
       "textures": "textures/blocks/paladium_block"
@@ -34,8 +34,20 @@
     "findium_ore": {
       "textures": "textures/blocks/findium_ore"
     },
-    "orange_crop": {
-      "textures": "textures/blocks/orange_crop"
+    "orange_blue_crop_0": {
+      "textures": "textures/blocks/orangeblue_stage_0"
+    },
+    "orange_blue_crop_1": {
+      "textures": "textures/blocks/orangeblue_stage_1"
+    },
+    "orange_blue_crop_2": {
+      "textures": "textures/blocks/orangeblue_stage_2"
+    },
+    "orange_blue_crop_3": {
+      "textures": "textures/blocks/orangeblue_stage_3"
+    },
+    "orange_blue_crop_4": {
+      "textures": "textures/blocks/orangeblue_stage_4"
     },
     "findium_block": {
       "textures": "textures/blocks/findium_block"

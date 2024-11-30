@@ -1,23 +1,26 @@
 {
     "format_version": 2,
     "header": {
-        "description": "La Beta 3.1",
         "name": "Palamod beta par SMSU01 | Restaurer par achul123",
+        "description": "La Beta 3.1",
         "uuid": "caf68161-ceaf-4555-8c1b-de50c6b9729a",
-        "version": [1, 0, 0],
-        "min_engine_version": [1, 19, 20]
+        "version": "2.0.0",
+        "min_engine_version": [1, 21, 20]
+    },
+    "metadata": {
+        "authors": ["SMSU01", "achul123"]
     },
     "modules": [
         {
             "type": "resources",
             "uuid": "95d49140-1500-4139-be38-edd85edc7b52",
-            "version": [1, 0, 0]
+            "version": "2.0.0"
         }
     ],
     "dependencies": [
         {
 			"uuid": "7f3d5b87-bbc1-4dd8-ac2f-3a2b85026a62",
-            "version": [1, 0, 0]
+            "version": "2.0.0"
         }
     ]
 }

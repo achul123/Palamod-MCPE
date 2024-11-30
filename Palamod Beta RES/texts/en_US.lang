@@ -50,8 +50,8 @@ item.palamod:paladium_apple.name=Paladium Apple
 item.palamod:orange_seed.name=Orange Seed
 item.palamod:orange_blue.name=Orange Blue
 item.palamod:hand_glider.name=Hand Glider
-item.palamod.diamond_string.name=Diamond String
-item.palamod.paladium_hammer.name=Paladium Hammer
+item.palamod:diamond_string.name=Diamond String
+item.palamod:paladium_hammer.name=Paladium Hammer
 
 tile.palamod:paladium_machine.name=Paladium Machine
 tile.palamod:paladium_ore.name=Paladium Ore
