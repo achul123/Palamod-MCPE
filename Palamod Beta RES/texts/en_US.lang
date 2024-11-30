@@ -24,7 +24,7 @@ item.palamod:amethyst_ingot.name=Amethyst Ingot
 item.palamod:titane_ingot.name=Titane Ingot
 item.palamod:paladium.name=Paladium Ingot
 item.palamod:endium_ingot.name=Endium Ingot
-item.palamod:green_ingot.name=Green Paladium Ingot
+item.palamod:paladium_green_ingot.name=Green Paladium Ingot
 
 item.spawn_egg.entity.palamod:guardian.name=Guardian Golem
 

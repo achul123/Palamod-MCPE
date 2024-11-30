@@ -2,134 +2,72 @@
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.items",
   "texture_data": {
-    "paladium_sword": {
-      "textures": "textures/items/paladium_sword.png"
-    },
-    "titane_sword": {
-      "textures": "textures/items/titane_sword.png"
-    },
-    "amethyst_sword": {
-      "textures": "textures/items/amethyst_sword.png"
-    },
-    "amethyst_ingot": {
-      "textures": "textures/items/amethyst_ingot.png"
-    },
-    "titane_ingot": {
-      "textures": "textures/items/titane_ingot.png"
-    },
-    "paladium_stick": {
-      "textures": "textures/items/paladium_stick.png"
-    },
-    "paladium": {
-      "textures": "textures/items/paladium.png"
-    },
-    "money": {
-      "textures": "textures/items/money.png"
-    },
-    "paladium_apple": {
-      "textures": "textures/items/paladium_apple.png"
-    },
-    "hand_glider": {
-      "textures": "textures/items/hand_glider.png"
-    },
-    "speed_stick": {
-      "textures": "textures/items/speed_stick.png"
-    },
-    "strength_stick": {
-      "textures": "textures/items/strength_stick.png"
-    },
-    "heal_stick": {
-      "textures": "textures/items/heal_stick.png"
-    },
-    "jump_stick": {
-      "textures": "textures/items/jump_stick.png"
-    },
-    "p_sharpness1": {
-      "textures": "textures/items/paladium_sword.png"
-    },
-    "p_sharpness2": {
-      "textures": "textures/items/paladium_sword.png"
-    },
-    "p_sharpness3": {
-      "textures": "textures/items/paladium_sword.png"
-    },
-    "p_sharpness4": {
-      "textures": "textures/items/paladium_sword.png"
-    },
-    "p_sharpness5": {
-      "textures": "textures/items/paladium_sword.png"
-    },
-    "speed_orb": {
-      "textures": "textures/items/speed_orb.png"
-    },
-    "strength_orb": {
-      "textures": "textures/items/strength_orb.png"
-    },
-    "jump_orb": {
-      "textures": "textures/items/jump_orb.png"
-    },
-    "heal_orb": {
-      "textures": "textures/items/heal_orb.png"
-    },
-    "compressed_paladium": {
-      "textures": "textures/items/compressed_paladium.png"
-    },
-    "paladium_pickaxe": {
-      "textures": "textures/items/paladium_pickaxe.png"
-    },
-    "amethyst_pickaxe": {
-      "textures": "textures/items/amethyst_pickaxe.png"
-    },
-    "titane_pickaxe": {
-      "textures": "textures/items/titane_pickaxe.png"
-    },
-    "paladium_hammer": {
-      "textures": "textures/items/paladium_hammer.png"
-    },
-    "diamond_string": {
-      "textures": "textures/items/diamond_string"
-    },
-    "green_ingot": {
-      "textures": "textures/items/paladium_vert.png"
-    },
-    "findium": {
-      "textures": "textures/items/findium.png"
-    },
-    "endium_ingot": {
-      "textures": "textures/items/endium_ingot.png"
-    },
-    "endium_nugget": {
-      "textures": "textures/items/endium_nugget.png"
-    },
-    "orange_blue": {
-      "textures": "textures/items/orange_blue.png"
-    },
-    "orange_seed": {
-      "textures": "textures/items/orange_seed.png"
-    },
-    "e_sharpness1": {
-      "textures": "textures/items/endium_sword.png"
-    },
-    "e_sharpness2": {
-      "textures": "textures/items/endium_sword.png"
-    },
-    "e_sharpness3": {
-      "textures": "textures/items/endium_sword.png"
-    },
-    "e_sharpness4": {
-      "textures": "textures/items/endium_sword.png"
-    },
-    "e_sharpness5": {
-      "textures": "textures/items/endium_sword.png"
-    },
-    "endium_pickaxe": {
-      "textures": "textures/items/endium_pickaxe.png"
-    },
-    "endium_sword": {
-      "textures": "textures/items/endium_sword.png"
-    },
-    "unclaim_finder": {
-      "textures": "textures/items/unclaim_finder.png"
-    }
+
+    "diamond_string": {"textures": "textures/items/diamond_string"},
+    "money": {"textures": "textures/items/money.png"},
+    "hand_glider": {"textures": "textures/items/hand_glider.png"},
+    "unclaim_finder": {"textures": "textures/items/unclaim_finder.png"},
+
+
+    "speed_stick": {"textures": "textures/items/speed_stick.png"},
+    "strength_stick": {"textures": "textures/items/strength_stick.png"},
+    "heal_stick": {"textures": "textures/items/heal_stick.png"},
+    "jump_stick": {"textures": "textures/items/jump_stick.png"},
+
+
+    "speed_orb": {"textures": "textures/items/speed_orb.png"},
+    "strength_orb": {"textures": "textures/items/strength_orb.png"},
+    "jump_orb": {"textures": "textures/items/jump_orb.png"},
+    "heal_orb": {"textures": "textures/items/heal_orb.png"},
+
+
+    "amethyst_sword": {"textures": "textures/items/amethyst_sword.png"},
+    "amethyst_ingot": {"textures": "textures/items/amethyst_ingot.png"},
+    "amethyst_pickaxe": {"textures": "textures/items/amethyst_pickaxe.png"},
+
+
+    "titane_sword": {"textures": "textures/items/titane_sword.png"},
+    "titane_pickaxe": {"textures": "textures/items/titane_pickaxe.png"},
+    "titane_ingot": {"textures": "textures/items/titane_ingot.png"},
+
+
+    "paladium_sword": {"textures": "textures/items/paladium_sword.png"},
+    "p_sharpness1": {"textures": "textures/items/paladium_sword.png"},
+    "p_sharpness2": {"textures": "textures/items/paladium_sword.png"},
+    "p_sharpness3": {"textures": "textures/items/paladium_sword.png"},
+    "p_sharpness4": {"textures": "textures/items/paladium_sword.png"},
+    "p_sharpness5": {"textures": "textures/items/paladium_sword.png"},
+    
+    "paladium": {"textures": "textures/items/paladium.png"},
+    "paladium_pickaxe": {"textures": "textures/items/paladium_pickaxe.png"},
+    "paladium_hammer": {"textures": "textures/items/paladium_hammer.png"},
+    "compressed_paladium": {"textures": "textures/items/compressed_paladium.png"},
+    "paladium_stick": {"textures": "textures/items/paladium_stick.png"},
+    "paladium_apple": {"textures": "textures/items/paladium_apple.png"},
+
+    "paladium_helmet":{"textures":"textures/items/paladium_helmet.png"},
+    "paladium_chestplate":{"textures":"textures/items/paladium_chestplate.png"},
+    "paladium_leggings":{"textures":"textures/items/paladium_leggings.png"},
+    "paladium_boots":{"textures":"textures/items/paladium_boots.png"},
+
+
+    "endium_sword": {"textures": "textures/items/endium_sword.png"},
+    "e_sharpness1": {"textures": "textures/items/endium_sword.png"},
+    "e_sharpness2": {"textures": "textures/items/endium_sword.png"},
+    "e_sharpness3": {"textures": "textures/items/endium_sword.png"},
+    "e_sharpness4": {"textures": "textures/items/endium_sword.png"},
+    "e_sharpness5": {"textures": "textures/items/endium_sword.png"},
+
+    "endium_pickaxe": {"textures": "textures/items/endium_pickaxe.png"},
+    "endium_ingot": {"textures": "textures/items/endium_ingot.png"},
+    "endium_nugget": {"textures": "textures/items/endium_nugget.png"},
+    "orange_blue": {"textures": "textures/items/orange_blue.png"},
+    "orange_seed": {"textures": "textures/items/orange_seed.png"},
+
+
+    "paladium_green_ingot": {"textures": "textures/items/paladium_green.png"},
+
+    
+    "findium": {"textures": "textures/items/findium.png"}
   }
 }

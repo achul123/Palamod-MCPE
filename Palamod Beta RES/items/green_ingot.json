@@ -2,11 +2,11 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "palamod:green_ingot",
+      "identifier": "palamod:paladium_green_ingot",
       "category": "Equipment"
     },
     "components": {
-      "minecraft:icon": "green_ingot",
+      "minecraft:icon": "paladium_green_ingot",
       "minecraft:render_offsets": "miscellaneous"
     }
   }

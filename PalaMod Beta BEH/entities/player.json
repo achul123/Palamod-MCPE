@@ -412,21 +412,6 @@
                   "test": "has_equipment",
                   "subject": "self",
                   "domain": "armor",
-                  "value": "minecraft:chainmail_helmet"
-                }
-              ]
-            },
-            "event": "palamod:phelmet"
-          }
-        },
-        {
-          "on_environment": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_equipment",
-                  "subject": "self",
-                  "domain": "armor",
                   "value": "minecraft:turtle_helmet"
                 }
               ]

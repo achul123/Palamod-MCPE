@@ -5,10 +5,9 @@
     "identifier": "palamod:furnace_green_ore"
     },
 
-    
     "tags": ["furnace", "blast_furnace"],
     "input": "palamod:paladium_green_ore",
-    "output": "palamod:green_ingot"
+    "output": "palamod:paladium_green_ingot"
   }
   
 }

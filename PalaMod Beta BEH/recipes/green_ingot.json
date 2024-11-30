@@ -2,10 +2,9 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "palamod:green_ingot"
+    "identifier": "palamod:paladium_green_ingot"
     },
 
-    
     "tags": [ "crafting_table" ],
     "pattern": [
       "X"
@@ -19,7 +18,7 @@
       }
     },
     "result": {
-      "item": "palamod:green_ingot",
+      "item": "palamod:paladium_green_ingot",
       "count": 9
     }
   }
